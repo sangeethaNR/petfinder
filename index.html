@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Foever Friend</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="text-lg  text-center mt-8 font-bold">Find your Forever Friend</h1>
+        <div class="container flex flex-col justify-center items-center">
+            <div>
+                Search by Pet type: <select name="pets" id="petSearch">
+                </select>
+            </div>
+            <br/>
+            <div>
+                Location  <input type="text" id="location"  placeholder="Enter a zipcode" />
+            </div>
+            <br>
+            <button id="btnSearch">Search</button>
+        </div>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body{
+    /* background-color: rgb(95, 59, 59); */
+}
+.sidecontainer{
+    padding: 10%;
+    margin: 10%;
+    background-color: rgb(219, 216, 211);
+    text-align: center;
+}
+.a{
+    border: black solid;
+    background-color: rgb(219, 216, 211);
+    font-size: large;
+    
+}
+.b , .c {
+    border: black solid;
+    background-color: rgb(219, 216, 211);
+    font-size: large;
+}
+#search{
+    box-sizing:content-box;
+}
