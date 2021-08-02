@@ -1,23 +1,58 @@
-body{
-    /* background-color: rgb(95, 59, 59); */
+
+body {
+  height: 100vh;
 }
-.sidecontainer{
-    padding: 10%;
-    margin: 10%;
-    background-color: rgb(219, 216, 211);
-    text-align: center;
+
+.sidecontainer {
+  padding: 10%;
+  margin: 10%;
+  background-color: rgb(219, 216, 211);
+  text-align: center;
 }
-.a{
-    border: black solid;
-    background-color: rgb(219, 216, 211);
-    font-size: large;
-    
+.a {
+  border: black solid;
+  background-color: rgb(219, 216, 211);
+  font-size: large;
 }
-.b , .c {
-    border: black solid;
-    background-color: rgb(219, 216, 211);
-    font-size: large;
+.b,
+.c {
+  border: black solid;
+  background-color: rgb(219, 216, 211);
+  font-size: large;
 }
-#search{
-    box-sizing:content-box;
+#search {
+  box-sizing: content-box;
+}
+/* for pict1  */
+.pic1 {
+  border: 1px solid coral;
+  width: 100%;
+}
+.pic2 {
+  height: 200px;
+  width: 50%;
+}
+
+#petSearch:hover {
+  cursor: pointer;
+}
+
+
+
+  
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+button {
+  background-color: #1f305e;
+  border-radius: 1em;
+  padding: 0.25em;
+}
+
+#animalTable {
+  cursor: pointer;
 }

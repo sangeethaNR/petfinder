@@ -65,11 +65,19 @@ console.log('pets:'+data.types[i].name);
 
 //Triggers when search button is clicked
 $('#btnSearch').click(function(){
-	console.log('inside');
+
 	var animalType=$( "#petSearch option:selected" ).text();
+
 	var location = $('#location').val();
+	if(animalType == "Small & Furry"){
+		animalType = "Small-Furry";
+	
+	}
+	localStorage.setItem('PetType',animalType);
+	localStorage.setItem('location',location);
 	var queryString = 'results.html?q=' + animalType + '&location=' + location;
 
 	document.location.assign(queryString);
 
 })
+

@@ -1,124 +1,57 @@
-## Project Requirements
+# <Find Your Forever Friend>
 
-You and your group will use everything you’ve learned over the past six units to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
+## Description
 
-- Use a CSS framework other than Bootstrap.
+We wanted to make this app to make pet finding simple and easy. One click of a button and you will have a list specific to find what you are looking for.
 
-- Be deployed to GitHub Pages.
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-- Be interactive (i.e., accept and respond to user input).
+This website is designed using Tailwind CSS, Bulma IO, and Petfinder API to help you find your next pet. You are able to choose whatt ype of animal you want and the zip code you are looking for and results will match your request. We made it possible for you to find your best friend in one easy click!
 
-* User Story
+User Story:
+AS A pet-lover with a specific taste
+I WANT to search for my best friend
+SO THAT I can be matched properly
 
-* Acceptance Criteria
+GIVEN I’m on the landing page WHEN I enter my zip code and pet type THEN I see a list of pets nearby that I can select in order to view details AND map of animals's locations.
 
-- Use at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
+The landing page looks like below
 
-* allow cross-origin resource sharing
-* require simple or no authentication
-* return JSON response
-* are well-documented
+![landing Page image](/images/landingPage.png)
 
-* https://coding-boot-camp.github.io/full-stack/apis/api-resources
+## Usage
 
-- Does not use alerts, confirms, or prompts (use modals).
+Provide instructions and examples for use. Include screenshots as needed.
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+`md ![alt text](assets/images/screenshot.png) `
 
-- Use client-side storage to store persistent data.
+## Credits
 
-- Be responsive.
+List your collaborators, if any, with links to their GitHub profiles.
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+If you followed tutorials, include links to those here as well.
 
-- Have a polished UI.
+## License
 
-- Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
+## The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-- Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-## Presentation Requirements
+## Badges
 
-Use this [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to address the following:
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-- Elevator pitch: a one minute description of your application
+## Features
 
-- Concept: What is your user story? What was your motivation for development?
+If your project has a lot of features, list them here.
 
-- Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+## How to Contribute
 
-- Demo: Show your stuff!
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-- Directions for Future Development
+## Tests
 
-- Links to the deployed application and the GitHub repository
-
-## Grading Requirements
-
-This project is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 25%
-
-- Satisfies the following code requirements:
-
-  - Application uses at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
-
-  - Application uses client-side storage to store persistent data.
-
-  - Application doesn't use JS alerts, prompts, or confirms (uses modals instead).
-
-  - Application uses a CSS framework other than Bootstrap.
-
-  - Application is interactive (accepts and responds to user input)
-
-### Concept 10%
-
-- Application should be a unique and novel idea.
-
-- Your group should clearly and concisely articulate your project idea.
-
-### Deployment: 20%
-
-- Application deployed at live URL and loads with no errors.
-
-- Application GitHub URL submitted.
-
-### Repository Quality: 10%
-
-- Repository has a unique name.
-
-- Repository follows best practices for file structure and naming conventions.
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains a quality README file with description, screenshot, and link to deployed application.
-
-### Application Quality: 15%
-
-- Application user experience is intuitive and easy to navigate.
-
-- Application user interface style is clean and polished.
-
-- Application is responsive.
-
-### Presentation 10%
-
-- Your group should present using Powerpoint or a similar presentation software.
-
-- Every group member should speak during the presentation.
-
-- Your presentation should follow the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing).
-
-### Collaboration 10%
-
-- There are no major disparities in the number of GitHub contributions between group members.
-
-## How to Submit Your Interactive Front-End Project
-
-**Each member of your group** is required to submit the following for review:
-
-- The URL of the deployed application.
-
-- The URL of the GitHub repository, with a unique name and a README describing the project.
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.

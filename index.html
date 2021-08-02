@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Your Foever Friend</title>
+
+    <title>Find Your Forever Friend</title>   
+
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <section>
-        <h1 class="text-lg  text-center mt-8 font-bold">Find your Forever Friend</h1>
-        <div class="container flex flex-col justify-center items-center">
+<body class="bg-blue-700 ">
+    <section class="container bg-blue-500 .bg-center bg-opacity-50 rounded-full py-3 px-6 h-screen ">
+
+        <h1 class="text-7xl text-center mt-8 font-extrabold font-sans text-pink-200 m-28 pt-36">
+            <div>Find your Forever Friend
+                <i class='fas fa-cat' style='font-size:24px'></i>
+            </div>
+        </h1>
+        <div class="container flex flex-col justify-center items-center font-sans text-pink-200 text-2xl">
             <div>
-                Search by Pet type: <select name="pets" id="petSearch">
+
+                <!-- this the select for search by pet type page 1 -->
+
+                Search by Pet type: <select name="pets" id="petSearch" class="bg-blue-900">
+
                 </select>
             </div>
             <br/>
             <div>
-                Location  <input type="text" id="location"  placeholder="Enter a zipcode" />
+
+                <!-- this div for location  and for search button on page 1 -->
+
+                Location:  <input name="location" type="text" id="location"  placeholder=" enter zipcode here" class="bg-blue-900"/>
             </div>
             <br>
-            <button id="btnSearch">Search</button>
+            <button id="btnSearch" class="font-sans">Search</button>
         </div>
-
-
-
+        <div class="text-xs text-center ">Find Your Forever Friend Productions ©</div>
     </section>
-
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="script.js"></script>
 </body>
 
