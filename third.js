@@ -28,7 +28,7 @@ function initMap(lat, lng) {
   const location = { lat: parseFloat(lat), lng: parseFloat(lng)};
   // The map, centered at the location
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 13,
     center: location,
   });
   // The marker, positioned at the location
